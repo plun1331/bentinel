@@ -1,0 +1,49 @@
+{
+    "bot": {
+        "guild": "main guild ID",
+        "exceptions": "error log channel"
+    },
+    "suggestions": {
+        "accept_channel": "suggestion accept channel",
+        "deny_channel": "suggestion deny channel",
+        "channel": "suggestion channel",
+        "role": "accept/deny suggestion role"
+    },
+    "roles": {
+        "channel": "role select channel"
+    },
+    "tickets": {
+        "channel": "ticket panel channel",
+        "category": "ticket category ID",
+        "role": "ticket support role",
+        "archive": "what's this?",
+        "transcripts": "ticket transcript channel"
+    },
+    "applications": {
+        "channel": "application channel"
+    },
+    "counters": {
+        "members": "member count channel",
+        "boosters": "boost count channel"
+    },
+    "moderation": {
+        "limbo": "idk what this does anymore but it should be a role id",
+        "mute": "mute role",
+        "reports": "report channel",
+        "logs": "mod logs"
+    },
+    "misc": {
+        "server_ip": "mc.the-atlas.net"
+    },
+    "birthdays": {
+        "channel": "birthday channel"
+    },
+    "commands": {
+        "guilds": [
+            "guild ids that should have commands"
+        ]
+    },
+    "logs": {
+        "channel": "audit logs channel"
+    }
+}

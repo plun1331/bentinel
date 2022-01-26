@@ -1,0 +1,54 @@
+[
+    {
+        "question": "What is your IGN?",
+        "input": "text",
+        "validation": "^[a-zA-Z_0-9]{1,16}$"
+    },
+    {
+        "question": "How old are you?",
+        "input": "text",
+        "validation": "^[0-9]+$"
+    },
+    {
+        "question": "What timezone are you in?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "Why do you want to be a staff member on the Atlas Network?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "How active can you be on the server?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "Do you understand the rules?",
+        "input": "select",
+        "validation": [
+            "Yes"
+        ]
+    },
+    {
+        "question": "What are your prior experiences as a moderator?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "Let's move on to some scenarios.",
+        "input": null,
+        "validation": null
+    },
+    {
+        "question": "Let's say you recently issued a punishment to someone for a rule violation, and you recieve messages from people threatening you/requesting you remove the punishment. What action will you take?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "You have video evidence of a Moderator or Admin abusing their rank. How would you go about the situation?",
+        "input": "text",
+        "validation": null
+    }
+]

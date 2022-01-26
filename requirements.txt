@@ -1,0 +1,9 @@
+aiosqlite
+discord.py
+discord-py-interactions==3.0.2
+humanize
+python-dotenv
+jishaku
+mcstatus
+youtube-dl
+PyNaCl

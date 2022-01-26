@@ -1,0 +1,62 @@
+[
+    {
+        "question": "What is your IGN?",
+        "input": "text",
+        "validation": "^[a-zA-Z_0-9]{1,16}$"
+    },
+    {
+        "question": "How old are you?",
+        "input": "text",
+        "validation": "^[0-9]+$"
+    },
+    {
+        "question": "What timezone are you in?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "Why do you want to be a Hospitality Team member on the Atlas Network?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "What sets you apart from the other applicants to this position?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "How active can you be on the server?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "How long have you been on the Atlas Network?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "Do you have any experience with helping people out in chat or lobby sitting?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "How would you react and work in a situation where a lot of newbie players are asking you simple and repetitive questions? (Such as about a release date for a new gamemode, the server being down or a simple game feature)",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "Do you know all the commands in Skyblock Sandbox that are used on a daily basis? If so, explain how to get coins, get items, edit an item, add a lore, add an enchant, and use the auction house.",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "How would you make Atlas a better place in your opinion?",
+        "input": "text",
+        "validation": null
+    },
+    {
+        "question": "Do you have any aspirations of becoming a staff member of Atlas in the future?",
+        "input": "text",
+        "validation": null
+    }
+]
