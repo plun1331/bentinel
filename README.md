@@ -11,3 +11,13 @@ With a convient menu to use and useful features such as automatic mod and plugin
 To get started, go to the [Atlas Development Discord](https://discord.gg/En2CMEuvR5) and look in #announcements to get started on making an account! And thank you to Swofty for giving me his money.
 
 *© 2022 Swofty Hosting™️*
+
+
+*also you need a .env file with the following contents:*
+```py
+TOKEN = discord bot token
+SWOFTY = SWOFTY HOSTING POGGERS
+TWITTER_API = ...
+TWITTER_SECRET = ...
+TWITTER_BEARER_TOKEN = ...
+```
