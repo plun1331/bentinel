@@ -37,6 +37,7 @@ class Misc(commands.Cog):
         self.cd = ExpiringCache(seconds=3600)
         self.bd_channel = self.bot.config['birthdays']['channel']
         self.birthday_task.start()
+        self.birthday.start()
 
     def format_motd(self, text: str) -> str:
         return self.fmt_regex.sub('', text).replace('%newline%', '\n')
