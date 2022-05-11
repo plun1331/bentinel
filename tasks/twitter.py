@@ -16,7 +16,7 @@ class Twitter(commands.Cog):
     # allows easier access to bot owner for the future when following multiple accounts
     # and updating via command
     @property
-    def twitter_allowed_accounts(self):
+    def twitter_allowed_accounts(self) -> int:
         return self.bot.owner_id
     
     @twitter_allowed_accounts.setter
