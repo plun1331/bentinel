@@ -33,7 +33,7 @@ class Misc(commands.Cog):
     def __init__(self, bot):
         self.bot: Bot = bot
         self.server = MinecraftServer.lookup(self.bot.config['misc']['server_ip'])
-        self.fmt_regex = re.compile(r'§.')
+        self.fmt_regex = re.compile(r'§[a-z0-9]')
         self.cd = ExpiringCache(seconds=3600)
         self.bd_channel = self.bot.config['birthdays']['channel']
         self.birthday_task.start()
