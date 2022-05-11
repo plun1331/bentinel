@@ -12,6 +12,16 @@ class Twitter(commands.Cog):
         self.token = os.getenv('TWITTER_BEARER_TOKEN')
         self.last_checked = datetime.utcnow()
         self.twitter.start()
+        
+    # allows easier access to bot owner for the future when following multiple accounts
+    # and updating via command
+    @property
+    def twitter_allowed_accounts(self):
+        return self.bot.owner_id
+    
+    @twitter_allowed_accounts.setter
+    def twitter_allowed_accounts(self, value):
+        self.bot.owner_id = value
 
     @tasks.loop(seconds=60)
     async def twitter(self):
